@@ -11,6 +11,7 @@ LI-LD is an interactive educational web application built with Flask and Python.
   - Determine if a set of vectors is linearly independent or dependent.
   - Solve for linear relations (null space vectors) if vectors are dependent.
 - **Step-by-Step Explanations:** The app provides detailed feedback, hints, and step-by-step explanations of matrix transformations (like RREF reduction, identifying pivots, and free variables).
+- **Interactive Visualizations:** Dynamically visualizes 2D and 3D vectors using Plotly.js so users can intuitively see how vectors span space and whether they are linearly dependent or independent.
 - **User Authentication & Profiles:** Secure login, registration, and user profiles with custom profile picture uploads.
 - **Progress Tracking:** Tracks user performance, including solved problems, unsolved problems, score tracking, and specific steps where mistakes were made (backed by MongoDB).
 
@@ -20,6 +21,7 @@ LI-LD is an interactive educational web application built with Flask and Python.
 - **Math Engine:** NumPy (for SVD, rank calculation, matrix operations)
 - **Database:** MongoDB (via PyMongo)
 - **Frontend:** HTML, CSS, JavaScript (Jinja2 Templates)
+- **Graphing & Visualization:** Plotly.js (v2.26.0) for dynamic 2D and 3D vector plotting
 
 
 ## Project Structure
